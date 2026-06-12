@@ -346,6 +346,69 @@ text-align: center;
     display: none;
 }
 
+
+.automat{
+
+    background:#F2F2F2;
+    margin-top: 10%;
+   height: 100%;
+}
+.ato{
+
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    align-items: center;
+   
+}
+
+.ato-tex{
+    line-height: 1.5;
+}
+.ato-tex h1{
+    font-size: 50px;
+    margin-top: 5vh;
+   
+}
+.ato-tex p{
+    font-size: 20px;
+    margin-top: 5vh;
+    color: #777;
+}
+
+.grgr{
+
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+   
+}
+.grgr-l{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5vh;
+}
+.gg{
+
+    line-height: 1.5;
+}
+.gg h4{
+  font-size: 30px;
+}
+.gg p{
+    color: #777;
+    font-size: 20px;
+}
+.ato-img2{
+    display: none;
+}
+
+
+
+
 @media (max-width: 1024px) {
 
 .cards{
@@ -500,6 +563,27 @@ text-align: center;
 .reg2{
     display: block;
    
+}
+
+.grgr{
+
+    flex-direction: column;
+}
+.ato{
+    flex-direction: column;
+}
+.ato-tex p{
+    font-size: 30px;
+}
+.gg p{
+    font-size: 30px;
+
+}
+.grgr-l{
+    gap: 8vh;
+}
+.ato-img2{
+    display: none;
 }
 
 }
@@ -661,6 +745,24 @@ text-align: center;
 .api-tex2 p{
     font-size: 20px;
 
+}
+
+.ato-img{
+    display: none;
+}
+
+.ato-img2{
+    display: block;
+}
+.ato-tex p{
+    font-size: 25px;
+}
+.grgr-l{
+    flex-direction: column;
+    align-items: start;
+}
+.grgr-l p{
+    font-size: 30px;
 }
 
 }
