@@ -1,0 +1,372 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 1px solid green;
+}
+.navpanel{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   gap: 40vh;
+   padding: 10px;
+    background: #673A44;
+    color: white;
+}
+.left-n{
+
+    display: flex;
+    gap: 10vh;
+}
+.right-n{
+    display: flex;
+    align-items: center;
+    gap: 2vh;
+}
+
+.logo{
+    background: #F2F2F2;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    position: relative;
+    left: 22vh;
+    width: 40vh;
+}
+
+.kabinet{
+
+    background: #ffffff;
+    display: flex;
+   padding: 20px;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.left-k{
+    line-height: 1.4;
+}
+.left-k h1{
+
+font-size: 70px;
+}
+.left-k p{
+    font-size: 25px;
+    margin-top: 5vh;
+}
+
+.left-k button{
+    font-size: 16px;
+    border-radius: 10px;
+    border-style: none;
+    background: #673A44;
+    color: white;
+    padding: 20px 20vh;
+    margin-top: 5vh;
+}
+
+
+
+.background{
+
+    position: absolute;
+    width: 140px;
+    top: 60vh;
+    left: 85vh;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+    gap: 4vh;
+}
+.card{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 5vh;
+    
+    border: 0.5px solid #673A44;
+    width: 80vh;
+    height: 30vh;
+    line-height: 1.2;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.tex{
+
+    width: 80%;
+}
+
+.card h2{
+    font-size: 35px;
+}
+.card p{
+    font-size: 20px;
+    margin-top: 3vh;
+    color: #777;
+}
+
+
+.card button{
+    width:40px;
+    height:40px;
+    border-radius:50%;
+    border:1px solid #8a4b58;
+    background:transparent;
+    font-size:20px;
+    cursor:pointer;
+}
+
+
+  .fff{
+
+    margin-top: 5%;
+  }
+
+.drujba{
+
+    margin-top: 10%;
+}
+
+.drujba h1{
+    margin-top: 10%;
+  font-size: 50px;
+    text-align: center;
+}
+
+.cards2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5vh;
+    margin-top: 5%;
+}
+
+.cardd{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  border: 0.5px solid #673A44;
+    width: 50vh;
+    height: 60vh;
+    line-height: 1.2;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+
+.cardd h2{
+    margin-top: 5vh;
+    font-size: 35px;
+}
+.cardd p{
+  margin-top: 6vh;
+    font-size: 25px;
+    color: #777;
+}
+
+.metrfoto{
+    text-align: center;
+    margin-top: 10vh;
+   
+}
+
+.razmer1024{
+    display: none;
+}
+
+.r-1024{
+    display: none;
+}
+
+
+.navpanel-600{
+    display: none;
+}
+
+.k-600{
+
+    display: none;
+}
+
+
+.r-600{
+
+    display: none;
+}
+@media (max-width: 1024px) {
+
+.cards{
+
+    padding: 20px;
+}
+    .background{
+        display: none;
+    }
+    .left-k{
+       padding: 20px;
+    }
+    .left-k button{
+
+        padding: 20px 50px;
+
+    }
+    .left-k p{
+        font-size: 20px;
+    }
+    .kabinet{
+        gap: 5vh;
+    }
+    .right-k img{
+        width: 60vh;
+
+    }
+    .logo img{
+     
+        position: relative;
+        left: 40px;
+    }
+
+    .cards2{
+        flex-direction: column;
+       
+    }
+    .cardd{
+       flex-direction: row;
+        width: 100vh;
+        height: 40vh;
+        align-items: center;
+        gap: 5vh;
+    }
+
+    .razmer1024{
+        display: block;
+    }
+    .iii{
+        display: none;
+    }
+
+    .left-n{
+        padding: 10px;
+        margin-left: 20px;
+    }
+  .metrfoto{
+    display: none;
+  }
+  .r-1024{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+
+@media (max-width: 600px) {
+
+    .left-n{
+        display: none;
+    }
+    .right-n{
+        display: none;
+    }
+    .navpanel-600{
+        display: flex;
+        justify-content: space-between;
+        gap: 10vh;
+        align-items: center;
+    }
+    
+    .left-n-600{
+       display: flex;
+       gap: 5vh;
+    }
+    .right-n-600{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 3vh;
+    }
+
+    .kabinet{
+
+        flex-direction: column-reverse;
+        
+    }
+.left-k{
+    text-align: center;
+}
+.k-600{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.k-600 h1{
+    font-size: 50px;
+    text-align: center;
+}
+.ooo{
+    display: none;
+}
+
+.left-k button{
+
+    padding: 30px 15vh;
+    font-size: 20px;
+}
+
+.cards{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.card{
+   width: 60vh;
+   align-items: center;
+}
+
+.cardd{
+    width: 60vh;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+.razmer1024{
+   margin-top: -8vh;
+   
+}
+.razmer1024 h2{
+    margin-bottom: -3vh;
+    font-size: 25px;
+}
+.razmer1024 p{
+    font-size: 18px;
+}
+
+.drujba h1{
+    font-size: 50px;
+}
+
+.r-600{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.r-600 img{
+    width: 100vh;
+}
+
+.r-1024{
+    display: none;
+}
+
+}
