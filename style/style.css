@@ -267,6 +267,30 @@ margin-top: 5vh;
     display: none;
 }
 
+.control{
+    margin-top: 10%;
+    padding: 20px;
+}
+.con{
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.con-tex{
+    line-height: 1.5;
+    margin-bottom: 10vh;
+}
+.con-tex h1{
+  font-size: 50px;
+  margin-bottom: 5vh;
+}
+.con-tex p{
+  color: #777;
+    font-size: 20px;
+}
+
+
 @media (max-width: 1024px) {
 
 .cards{
@@ -374,6 +398,13 @@ margin-top: 5vh;
 }
 .h1-600{
     display: none;
+}
+
+.con{
+    flex-direction: column-reverse;
+}
+.con-tex p{
+    font-size: 35px;
 }
 
 }
@@ -500,6 +531,14 @@ margin-top: 5vh;
 }
 .jjj p{
     font-size: 20px;
+}
+
+.con-tex p{
+    font-size: 20px;
+}
+.con-img img{
+    width: 60vh;
+
 }
 
 }
