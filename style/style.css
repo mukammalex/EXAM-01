@@ -481,6 +481,65 @@ line-height: 1.5;
     display: none;
 }
 
+
+.komu{
+
+    margin-top: 10%;
+    
+}
+.kom{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+}
+
+.kom-tex{
+
+    line-height: 1.5;
+}
+
+.kom-tex h1{
+
+    font-size: 50px;
+}
+
+.kom-tex ul{
+    font-size: 25px;
+    margin-top: 5vh;
+    color: #777;
+    
+}
+
+.duma{
+    text-align: center;
+    margin-top: 10%;
+}
+.duma h1{
+    font-size: 70px;
+}
+.duma button{ 
+color: white;
+    background: #673A44;
+  border-radius: 10px;
+    border-style: none;
+    font-size: 20px;
+  padding: 20px 15vh;
+    margin-top: 5vh;
+    cursor: pointer;
+}
+button{
+    cursor: pointer;
+}
+button:hover{
+    background: #777;
+}
+
+.kom-img2{
+    display: none;
+}
+
+
 @media (max-width: 1024px) {
 
 .cards{
@@ -711,6 +770,30 @@ font-size: 25px;
     display: none;
 }
 
+.kom{
+    flex-direction: column-reverse;
+
+}
+.kom-img{
+margin-top: 15vh;
+
+}
+.kom-tex ul{
+    font-size: 30px;
+
+}
+.duma h1{
+    font-size: 50px;
+}
+.duma button{
+    width: 50vh;
+    font-size: 12px;
+}
+
+.kom-img2{
+    display: none;
+}
+
 }
 
 
@@ -925,6 +1008,28 @@ font-size: 25px;
 
 .rez-tex2 h1{
     font-size: 50px;
+}
+
+.kom-img{
+    display: none;
+}
+.kom-img2{
+    display: block;
+    margin-top: 5vh;
+}
+
+.kom-tex ul{
+    font-size: 20px;
+    line-height: 2.5;
+}
+.duma h1{
+    font-size: 55px;
+}
+.duma button{
+
+font-size: 20px;
+width: 65vh;
+
 }
 
 }
