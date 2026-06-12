@@ -202,6 +202,71 @@ font-size: 70px;
 
     display: none;
 }
+
+
+
+.upravlenii{
+   margin-top: 10%;
+    background: #F2F2F2;
+    padding: 20px;
+}
+
+.upr{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+}
+.left-tex{
+    line-height: 1.5;
+}
+.left-tex h1{
+    font-size: 40px;
+}
+.left-tex p{
+color: #777;
+font-size: 20px;
+margin-top: 5vh;
+
+}
+
+.uchot{
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 10%;
+}
+.jjj{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 5vh;
+    line-height: 1.5;
+}
+.jjj h2{
+    font-size: 35px;
+}
+.jjj p{
+    font-size: 20px;
+    color: #777;
+    margin-top: 3vh;
+}
+
+.left-tex-1024{
+
+    display: none;
+}
+
+.p-1024{
+
+    display: none;
+}
+
+.hh-1024{
+    display: none;
+}
+
 @media (max-width: 1024px) {
 
 .cards{
@@ -266,6 +331,51 @@ font-size: 70px;
     justify-content: center;
     align-items: center;
   }
+
+.uchot{
+    flex-direction: column;
+}
+.upr{
+    flex-direction: column;
+}
+
+.left-tex{
+ display: none;
+
+}
+.left-tex-1024{
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    gap: 5vh;
+    align-items: start;
+    line-height: 1.5;
+}
+.left-tex-1024 p{
+  font-size: 25px;
+    color: #777;
+}
+.left-tex-1024 h1{
+    font-size: 40px;
+
+}
+
+.p-1024{
+    display: flex;
+}
+.pipi{
+    display: none;
+}
+.hh-1024{
+    display: flex;
+}
+.hh{
+    display: none;
+}
+.h1-600{
+    display: none;
+}
+
 }
 
 
@@ -367,6 +477,29 @@ font-size: 70px;
 
 .r-1024{
     display: none;
+}
+
+.h1-600{
+    display: flex;
+}
+.h1-1024{
+    display: none;
+}
+.left-tex-1024 p{
+    font-size: 20px;
+}
+
+.right-img img{
+    width: 70vh;
+}
+.uchot{
+    flex-direction: column;
+}
+.jjj{
+    flex-direction: column;
+}
+.jjj p{
+    font-size: 20px;
 }
 
 }
