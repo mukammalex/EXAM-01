@@ -452,6 +452,34 @@ line-height: 1.5;
 }
 
 
+.rezerv{
+
+    background:#F2F2F2;
+    margin-top: 10%;
+}
+
+.rez{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+}
+.rez-tex h1{
+    font-size: 50px;
+}
+.rez-tex p{
+    color: #777;
+    font-size: 20px;
+    margin-top: 5vh;
+}
+
+.rez-tex2{
+    display: none;
+}
+
+.rez-img2{
+    display: none;
+}
 
 @media (max-width: 1024px) {
 
@@ -658,6 +686,31 @@ line-height: 1.5;
 font-size: 25px;
 }
 
+.rez{
+
+    flex-direction: column;
+}
+.rez-tex2 h1{
+    font-size: 50px;
+}
+
+.rez-tex{
+    display: none;
+}
+.rez-tex2{
+    display: block;
+    line-height: 1.5;
+    margin-bottom: 10vh;
+}
+.rez-tex2 p{
+    font-size: 30px;
+    color: #777;
+}
+
+.rez-img2{
+    display: none;
+}
+
 }
 
 
@@ -853,6 +906,25 @@ font-size: 25px;
 }
 .card-po h3{
     margin-top: 5vh;
+}
+
+.rez-img{
+    display: none;
+}
+.rez-img2{
+    display: block;
+}
+.rez{
+    flex-direction: column;
+}
+
+.rez-tex2 p{
+    font-size: 22px;
+    margin-top: 5vh;
+}
+
+.rez-tex2 h1{
+    font-size: 50px;
 }
 
 }
