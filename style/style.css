@@ -306,13 +306,14 @@ text-align: center;
     margin-top: 5%;
 }
 .card-ar{
-  border: 1px solid #777;
+  border: 0.5px solid #673A44;
     width: 30vh;
     height: 30vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border-radius: 10px;
 }
 .card-ar h4{
     font-size: 25px;
@@ -406,6 +407,49 @@ text-align: center;
     display: none;
 }
 
+.pomog{
+
+    margin-top: 10%;
+    padding: 20px;
+    text-align: center;
+}
+.pomog h1{
+    font-size: 50px;
+}
+.cards-po{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5vh;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+.card-po{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 0.5px solid #673A44;
+    width: 40vh;
+    height: 50vh;
+    text-align: start;
+    border-radius: 10px;
+}
+.card-po h3{
+ font-size: 30px;
+
+}
+.card-po p{
+    margin-top: 5vh;
+color: #777;
+font-size: 20px;
+line-height: 1.5;
+
+}
+.card-po-tex2{
+    display: none;
+}
 
 
 
@@ -586,7 +630,38 @@ text-align: center;
     display: none;
 }
 
+.cards-po{
+    flex-direction: column;
 }
+.card-po{
+    align-items: center;
+    justify-content: start;
+    flex-direction: row;
+    width: 95vh;
+    height: 20vh;
+    padding: 20px;
+    
+}
+.card-po-tex{
+    display: none;
+  
+}
+.card-po-tex2{
+    display: block;
+    
+}
+.card-po-tex2 p{
+    font-size: 20px;
+    margin-top: 15px;
+}
+.card-po-tex2 h3{
+font-size: 25px;
+}
+
+}
+
+
+
 
 
 @media (max-width: 600px) {
@@ -763,6 +838,21 @@ text-align: center;
 }
 .grgr-l p{
     font-size: 30px;
+}
+
+.cards-po{
+    flex-direction: column;
+
+}
+.card-po{
+    flex-direction: column;
+    align-items: start;
+    width: 65vh;
+    height: 40vh;
+
+}
+.card-po h3{
+    margin-top: 5vh;
 }
 
 }
